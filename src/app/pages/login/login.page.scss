@@ -2,29 +2,39 @@
     border: 1px solid;
     color: #FF9E42;
     text-align: center;
+    align-items: center;
+    font-style: Roboto;
+    width: 261px;
+    height: 40px;
+    margin:auto;
 }
 
 #margin-email {
     margin-top: 300px;
     margin-bottom: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 #margin-password {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 .login-button {
     --background: #82D5FF;
+    font-style: Roboto;
+    --color: black;
+    width: 182px;
+    height: 48px;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: 0px;
 }
 
 .round-button {
-    --background: #FF9E42;
-    width: 50px;
-  height: 50px;
+  --background: #FF9E42;
+  width: 53px;
+  height: 53px;
   border-radius: 100% !important;
+  font-style: Roboto;
+  --color: black;
 }
