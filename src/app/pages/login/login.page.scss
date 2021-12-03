@@ -10,16 +10,26 @@
 }
 
 #margin-email {
-    margin-top: 300px;
-    margin-bottom: 15px;
+    margin-top: 60px;
 }
 
 #margin-password {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.login-button {
+.login-button-top {
+    --background: #82D5FF;
+    font-style: Roboto;
+    --color: black;
+    width: 182px;
+    height: 48px;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.login-button-bottom {
     --background: #82D5FF;
     font-style: Roboto;
     --color: black;
@@ -37,4 +47,9 @@
   border-radius: 100% !important;
   font-style: Roboto;
   --color: black;
+  margin-bottom: 109;
+}
+
+.logo {
+    margin-top: 64px;
 }

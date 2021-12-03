@@ -25,4 +25,15 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
+// footer styling:
+ion-fab-button {
+    --background: white;
+    width: 53px;
+    height: 53px;
+    border-radius: 100% !important;
+}
 
+.footer {
+    --background: #154173;
+    height: max-content;
+}

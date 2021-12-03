@@ -1,9 +1,82 @@
-<ion-header>
+<ion-app>
+<ion-header fullscreen>
   <ion-toolbar>
-    <ion-title>main</ion-title>
+    <ion-back-button text="" class="back-arrow"></ion-back-button>
+    <ion-avatar slot="end">
+      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+    </ion-avatar>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content fullscreen>
+  
+    <ion-row>
+      <ion-col>
+      <ion-item>
+         <ion-button id="addlist" fill="clear">
+          <ion-icon name="add"></ion-icon>
+        </ion-button>
+      </ion-item>
+      </ion-col>
+    </ion-row>
+      
+    <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
+      <ion-row>
+        <ion-col class="ion-margin">
+        <ion-item class="ion-align-items-center">
+          <ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
+          </ion-reorder>
+        </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-margin">
+        <ion-item class="ion-align-items-center">
+          <ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
+          </ion-reorder>
+        </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-margin">
+        <ion-item class="ion-align-items-center">
+          <ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
+          </ion-reorder>
+        </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-margin">
+        <ion-item class="ion-align-items-center">
+          <ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
+          </ion-reorder>
+        </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col class="ion-margin">
+        <ion-item class="ion-align-items-center">
+          <ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
+          </ion-reorder>
+        </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-reorder-group>
+    
 </ion-content>
+
+  <ion-footer>
+    <ion-toolbar class="footer">
+      <ion-fab vertical="center" horizontal="center">
+        <ion-fab-button >
+          <img src="assets/icon/logo_cart.png" class="logo">
+        </ion-fab-button>
+      </ion-fab>
+    </ion-toolbar>
+  </ion-footer>
+</ion-app>
