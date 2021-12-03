@@ -4,25 +4,25 @@
       <ion-col size="12" class="ion-text-center">
       <img src="assets/icon/logo_cart.png" class="logo">
       </ion-col>
-      <ion-col size="12" class="ion-text-center">
-  
+
+   <form [formGroup]="form">   
+   <ion-col size="12" class="ion-text-center">
     <ion-item id="margin-email" class="border">
-      <ion-input placeholder="Email" type="email"></ion-input>
+      <ion-input placeholder="Email" type="email" formControlName="email"></ion-input>
     </ion-item>
     <ion-item id="margin-password" class="border">
-      <ion-input placeholder="Password" type="password"></ion-input>
+      <ion-input placeholder="Password" type="password" formControlName="password"></ion-input>
     </ion-item>
   </ion-col>
-<!-- </ion-row> -->
-  <!-- <ion-row class="ion-align-items-center"> -->
+  <ion-row class="ion-align-items-center">
     <ion-col size="12" class="ion-text-center">
-      <ion-button class="login-button-top" shape="round">Login</ion-button>
+      <ion-button class="login-button-top" shape="round" (click)="login()" [disabled]="!form.valid">Login</ion-button>
     </ion-col>
-  <!-- </ion-row>   -->
-    <!-- <ion-row class="ion-align-items-center"> -->
       <ion-col size="12" class="ion-text-center">
-    <ion-button class="login-button-bottom" shape="round">Sign in</ion-button> 
+    <ion-button class="login-button-bottom" shape="round" (click)="signin()">Sign in</ion-button> 
   </ion-col>
+  </ion-row>
+  </form>
   <ion-col size="12" class="ion-text-center">
     <ion-text>
       <p>Or login with:</p>
