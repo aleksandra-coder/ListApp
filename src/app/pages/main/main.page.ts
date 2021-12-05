@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { IonReorderGroup } from '@ionic/angular';
 import { ItemReorderEventDetail } from '@ionic/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -12,7 +13,7 @@ import { ItemReorderEventDetail } from '@ionic/core';
 export class MainPage implements OnInit {
   @ViewChild(IonReorderGroup) reorderGroup: IonReorderGroup;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
@@ -30,4 +31,10 @@ export class MainPage implements OnInit {
   toggleReorderGroup() {
     this.reorderGroup.disabled = !this.reorderGroup.disabled;
   }
+
+  add(){
+    // just temporarly routered to home
+    this.router.navigate(['home']);
+  }
+
 }
