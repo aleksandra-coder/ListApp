@@ -37,4 +37,9 @@ export class MainPage implements OnInit {
     this.router.navigate(['home']);
   }
 
+  back(){
+    // just temporarly routered to home
+    this.router.navigate(['login']);
+  }
+
 }
