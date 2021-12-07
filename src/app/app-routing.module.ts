@@ -26,7 +26,15 @@ const routes: Routes = [
   {
     path: 'crlist',
     loadChildren: () => import('./pages/crlist/crlist.module').then( m => m.CrlistPageModule)
+  },  {
+    path: 'loader',
+    loadChildren: () => import('./pages/loader/loader.module').then( m => m.LoaderPageModule)
+  },
+  {
+    path: 'my-list-page',
+    loadChildren: () => import('./pages/my-list-page/my-list-page.module').then( m => m.MyListPagePageModule)
   }
+
 ];
 
 @NgModule({

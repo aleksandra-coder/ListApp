@@ -1,0 +1,19 @@
+.flex-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+
+}
+#spinner{
+   position: absolute;
+   transform: scale(3);
+}
+.ion-color-customBlue {
+    --ion-color-base: var(--ion-color-customBlue);
+    --ion-color-base-rgb: var(--ion-color-customBlue-rgb);
+    --ion-color-contrast: var(--ion-color-customBlue-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-customBlue-contrast-rgb);
+    --ion-color-shade: var(--ion-color-customBlue-shade);
+    --ion-color-tint: var(--ion-color-customBlue-tint);
+  }
