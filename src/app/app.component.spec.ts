@@ -28,8 +28,8 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
   it('should initialize the app', waitForAsync () => {
-    TestBed.createComponent(AppComponent);
-    expect(platformSpy.ready).toHaveBeenCalled();
+    TestBed.createComponent(AppComponent),
+    expect(.ready).toHaveBeenCalled();
     await platformReadySpy;
     expect(statusBarSpy.styleDefault).toHaveBeenCalled();
     expect(splashScreenSpy.hide).toHaveBeenCalled();

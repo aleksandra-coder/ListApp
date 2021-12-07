@@ -1,8 +1,12 @@
 
 
 .back-arrow {
-    width: 70px;
-    height: 70px;
+    width: 49px;
+    height: 49px;
+    --color: black;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 100% !important;
 }
 
 .button-listname {

@@ -5,15 +5,20 @@
       <img src="assets/icon/logo_cart.png" class="logo">
       </ion-col>
 
-   <form [formGroup]="form">   
+   <form [formGroup]="form">  
+    <ion-row class="ion-align-items-center"> 
    <ion-col size="12" class="ion-text-center">
     <ion-item id="margin-email" class="border">
       <ion-input placeholder="Email" type="email" formControlName="email"></ion-input>
     </ion-item>
+    <ion-label class="notification" color="danger" *ngIf="form.get('email').touched && form.get('email').errors?.required">* Email is mandatory</ion-label>
+    <ion-label class="notification" color="danger" *ngIf="form.get('email').touched && form.get('email').errors?.email">Invalid email</ion-label>
     <ion-item id="margin-password" class="border">
       <ion-input placeholder="Password" type="password" formControlName="password"></ion-input>
     </ion-item>
+    <ion-label class="notification" color="danger" *ngIf="form.get('password').touched && form.get('password').errors?.required">* Password is mandatory</ion-label>
   </ion-col>
+  </ion-row>
   <ion-row class="ion-align-items-center">
     <ion-col size="12" class="ion-text-center">
       <ion-button class="login-button-top" shape="round" (click)="login()" [disabled]="!form.valid">Login</ion-button>

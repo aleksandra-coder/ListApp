@@ -36,8 +36,4 @@ export class MainPage implements OnInit {
     this.router.navigate(['crlist']);
   }
 
-  back(){
-    this.router.navigate(['login']);
-  }
-
 }
