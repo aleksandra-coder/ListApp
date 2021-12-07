@@ -33,12 +33,10 @@ export class MainPage implements OnInit {
   }
 
   add(){
-    // just temporarly routered to home
-    this.router.navigate(['home']);
+    this.router.navigate(['crlist']);
   }
 
   back(){
-    // just temporarly routered to home
     this.router.navigate(['login']);
   }
 
