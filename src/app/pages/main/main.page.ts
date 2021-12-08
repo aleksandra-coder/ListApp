@@ -36,4 +36,8 @@ export class MainPage implements OnInit {
     this.router.navigate(['crlist']);
   }
 
+  show(){
+    this.router.navigate(['my-list-page']);
+  }
+
 }
