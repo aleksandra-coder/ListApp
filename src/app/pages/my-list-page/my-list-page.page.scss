@@ -1,21 +1,77 @@
 ion-header{
-    height:12%;
+   height: 17%;
 }
-ion-toolbar{
-    height:100%;
+.mainHeader{
+    height: 50%;
 }
-.triangle{ 
+.listToolbar{
+   height: 50%;
+    --background: #FF9E42 ;
+    padding-top: 3%;
+    
+    
+}
+.listTitle{
+font-size: 24px;
+padding-top: 2%;
+}
+.listOptions{
+    color:black;
+    --background:white;
+    --border-radius:30%;
+}
+.addButton{
+    --border-color: rgb(0, 0, 0);
+    --border-width:2px;
+    --border-radius:10%;
+    font-size: 24px;
+    font-weight: bolder;
+    --background: white;
+    --color:black;
+    --color-activated: #FF9E42;
+    --ripple-color:#FF9E42;
+    --background-focused: #F7F7FC;
+    --background-activated:#F7F7FC;
+    width:100%;
+    height: 100%;
+    min-height: 50px;
+}
+.unCheck{
+    height: 100%;
+    min-height: 50px;
     --background: #82D5FF;
-   width:20%;
-   --backgroundtransform:skew(90deg);
-   background-position: left;
-   position:absolute;
-   z-index: 2;
+    color:black;
+    font-weight: bolder;
+    width:100%;
+    --color-activated: #154173;
 }
-.side{
-    position: absolute;
-    top:0%;
-    width:80%;
-    right:0%;
-    z-index: 1;
+.check{
+    width:100%;
+    height: 100%;
+    min-height: 50px;
+    --border-color: rgb(0, 0, 0);
+}
+.delete{
+    width:100%;
+    height: 100%;
+    min-height: 50px;
+    --border-color: #FF9E42;
+    
+}
+.writeArea{
+    --border-color: rgb(0, 0, 0);
+    --border-width:2px;
+    --border-radius:10%;
+    font-size: 24px;
+    font-weight: bolder;
+    --background: white;
+    --color:black;
+    --color-activated: #FF9E42;
+    --ripple-color:#FF9E42;
+    --background-focused: #F7F7FC;
+    --background-activated:#F7F7FC;
+    width:100%;
+    height: 100%;
+    min-height: 50px;
+
 }
