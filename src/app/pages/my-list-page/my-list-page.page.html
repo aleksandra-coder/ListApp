@@ -1,10 +1,36 @@
 <ion-header>
-  <ion-toolbar class="triangle">
-    <div >My div</div>
+  <ion-toolbar class="mainHeader">
+    <div >Here comes the main toolbar</div>
   </ion-toolbar>
-  <ion-toolbar class="side">
-    <div >My div</div>
+  <ion-toolbar class="listToolbar">
+    <ion-title slot="secondary" class="listTitle">My List</ion-title>
+    <ion-menu-button class="listOptions" auto-hide="false" slot="end"></ion-menu-button>
   </ion-toolbar>
+  </ion-header>
 <ion-content>
- 
+ <ion-grid>
+   <ion-row>
+     <ion-col size="8">
+       <ion-button  fill="outline" class="addButton">+</ion-button>
+     </ion-col>
+     <ion-col size="4">
+       <ion-button class="unCheck">Uncheck all</ion-button>
+     </ion-col>
+   </ion-row>
+   <ion-row>
+    <ion-col size="8">
+      <ion-button  fill="outline" class="writeArea"></ion-button>
+    </ion-col>
+    <ion-col size="2">
+      <ion-button fill="outline" class="check">check</ion-button>
+    </ion-col>
+    <ion-col size="2">
+      <ion-button fill="outline" class="delete">delete</ion-button>
+    </ion-col>
+  </ion-row>
+ </ion-grid>
 </ion-content>
+
+<ion-footer>
+  
+</ion-footer>
