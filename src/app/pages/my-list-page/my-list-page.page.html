@@ -1,13 +1,14 @@
-<ion-header>
-  <ion-toolbar class="mainHeader">
-    <div >Here comes the main toolbar</div>
+<ion-app>
+<ion-header >
+  <ion-toolbar class="mainHeader" class="background">
+    <div>Here comes the main toolbar</div>
   </ion-toolbar>
   <ion-toolbar class="listToolbar">
     <ion-title slot="secondary" class="listTitle">My List</ion-title>
     <ion-menu-button class="listOptions" auto-hide="false" slot="end"></ion-menu-button>
   </ion-toolbar>
   </ion-header>
-<ion-content>
+<ion-content fullscreen="true">
  <ion-grid>
    <ion-row>
      <ion-col size="8">
@@ -32,5 +33,8 @@
 </ion-content>
 
 <ion-footer>
-  
+  <ion-toolbar class="fImg">
+    
+  </ion-toolbar>
 </ion-footer>
+</ion-app>

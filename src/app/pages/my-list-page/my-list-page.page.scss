@@ -1,3 +1,8 @@
+.background{
+ --background: url(..\..\..\assets\triangle3.png) 0 0/100% 100% no-repeat;
+ height: 50%;
+ width: 150%;
+}
 ion-header{
    height: 17%;
 }
@@ -7,18 +12,21 @@ ion-header{
 .listToolbar{
    height: 50%;
     --background: #FF9E42 ;
-    padding-top: 3%;
-    
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .listTitle{
 font-size: 24px;
-padding-top: 2%;
+height: 100%;
+
 }
 .listOptions{
     color:black;
     --background:white;
     --border-radius:30%;
+    margin-right: 5%;
+    
 }
 .addButton{
     --border-color: rgb(0, 0, 0);
@@ -74,4 +82,12 @@ padding-top: 2%;
     height: 100%;
     min-height: 50px;
 
+}
+ion-footer{
+    height:10%;
+}
+.fImg{
+--background: url(..\..\..\assets\footer1.png) 0 0/100% 100% no-repeat;
+ height: 100%;
+ width: 100%;
 }
