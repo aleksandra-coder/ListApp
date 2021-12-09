@@ -1,13 +1,50 @@
 <ion-header>
-  
-    <ion-label>New This Week</ion-label>
-    <ion-button>See All</ion-button>
-  
-  <ion-toolbar>
-    <ion-title>crlist</ion-title>
+  <ion-toolbar >
+    
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
+  <ion-button class="createlist">Create List</ion-button>
+  <ion-grid>
+    <ion-row>
+      <h2 class="question">Give this list details?</h2>
+    </ion-row>
+  </ion-grid>
+  <h1 class="listtitle">Name:</h1>
+  <ion-button  fill="outline" class="namelist">
+    <ion-textarea rows="1"  placeholder="List Name"></ion-textarea>
+</ion-button>
+<h1 class="listdescribe">Describe the list:</h1>
+<ion-button  fill="outline" class="listholder">
+  <ion-textarea rows="1"  placeholder="List description"></ion-textarea>
+</ion-button>
+
+<h1 class="select ">Select a color from this list:</h1>
+ <ion-grid class="selectcolor">
+   <ion-row>
+
+<ion-col size="2">
+  <ion-button class="color1"></ion-button>
+</ion-col>
+<ion-col size="2">
+  <ion-button  class="color2"></ion-button>
+</ion-col>
+<ion-col size="2"> 
+  <ion-button class="color3"></ion-button>
+</ion-col>
+<ion-col size="2"> 
+  <ion-button class="color4"></ion-button>
+</ion-col>
+<ion-col size="2"> 
+  <ion-button class="color5"></ion-button>
+</ion-col>
+<ion-col size="2"> 
+  <ion-button class="color6"></ion-button>
+</ion-col>
+</ion-row>
+ </ion-grid>  
+
+
 
 </ion-content>
