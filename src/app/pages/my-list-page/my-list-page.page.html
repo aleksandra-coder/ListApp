@@ -20,13 +20,15 @@
    </ion-row>
    <ion-row>
     <ion-col size="8">
-      <ion-button  fill="outline" class="writeArea"></ion-button>
+      <ion-button  fill="outline" class="writeArea">
+        <ion-textarea rows="1"  placeholder="New item"></ion-textarea>
+    </ion-button>
     </ion-col>
     <ion-col size="2">
-      <ion-button fill="outline" class="check">check</ion-button>
+      <ion-button fill="outline" class="check"><ion-icon class="done" name="checkmark-outline"></ion-icon></ion-button>
     </ion-col>
     <ion-col size="2">
-      <ion-button fill="outline" class="delete">delete</ion-button>
+      <ion-button fill="outline" class="delete"><ion-icon class="dIcon" name="trash-outline"></ion-icon></ion-button>
     </ion-col>
   </ion-row>
  </ion-grid>
@@ -34,7 +36,7 @@
 
 <ion-footer>
   <ion-toolbar class="fImg">
-    
+      <img class="fLogo"  src="..\..\..\assets\icon\logo_cart.png" />
   </ion-toolbar>
 </ion-footer>
 </ion-app>
