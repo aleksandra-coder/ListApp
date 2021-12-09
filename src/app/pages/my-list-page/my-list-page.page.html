@@ -1,13 +1,29 @@
-<ion-header>
-  <ion-toolbar class="mainHeader">
-    <div >Here comes the main toolbar</div>
+
+<ion-header >
+  <ion-toolbar class="mainHeader" class="background">
+    <ion-buttons  slot="start">
+      <ion-button class="biggerB">
+        <ion-icon  class="backArrow"  slot="icon-only" name="arrow-back-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="biggerB">
+       <ion-avatar>
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
+
+  
+
   <ion-toolbar class="listToolbar">
     <ion-title slot="secondary" class="listTitle">My List</ion-title>
     <ion-menu-button class="listOptions" auto-hide="false" slot="end"></ion-menu-button>
   </ion-toolbar>
   </ion-header>
-<ion-content>
+
+<ion-content fullscreen="true">
  <ion-grid>
    <ion-row>
      <ion-col size="8">
@@ -19,18 +35,22 @@
    </ion-row>
    <ion-row>
     <ion-col size="8">
-      <ion-button  fill="outline" class="writeArea"></ion-button>
+      <ion-button  fill="outline" class="writeArea">
+        <ion-textarea rows="1"  placeholder="New item"></ion-textarea>
+    </ion-button>
     </ion-col>
     <ion-col size="2">
-      <ion-button fill="outline" class="check">check</ion-button>
+      <ion-button fill="outline" class="check"><ion-icon class="done" name="checkmark-outline"></ion-icon></ion-button>
     </ion-col>
     <ion-col size="2">
-      <ion-button fill="outline" class="delete">delete</ion-button>
+      <ion-button fill="outline" class="delete"><ion-icon class="dIcon" name="trash-outline"></ion-icon></ion-button>
     </ion-col>
   </ion-row>
  </ion-grid>
 </ion-content>
 
 <ion-footer>
-  
+  <ion-toolbar class="fImg">
+      <img class="fLogo"  src="..\..\..\assets\icon\logo_cart.png" />
+  </ion-toolbar>
 </ion-footer>

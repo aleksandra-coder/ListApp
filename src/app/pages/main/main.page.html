@@ -22,50 +22,44 @@
       </ion-item>
       </ion-col>
     </ion-row>
-      
     <ion-reorder-group (ionItemReorder)="doReorder($event)" disabled="false">
       <ion-row>
         <ion-col class="ion-margin">
         <ion-item class="ion-align-items-center">
-          <ion-reorder>
-           <ion-button class="button-listname" fill="clear" size="full">Party shopping</ion-button>
-          </ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full" (click)="show()">Party shopping</ion-button>
+           <ion-reorder><ion-icon name="swap-vertical-outline"></ion-icon></ion-reorder>
         </ion-item>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col class="ion-margin">
         <ion-item class="ion-align-items-center">
-          <ion-reorder>
-           <ion-button class="button-listname" fill="clear" size="full">Pikkujoulu</ion-button>
-          </ion-reorder>
+           <ion-button class="button-listname" fill="clear" size="full" (click)="show()">Pikkujoulu</ion-button>
+           <ion-reorder><ion-icon name="swap-vertical-outline"></ion-icon></ion-reorder>
         </ion-item>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col class="ion-margin">
         <ion-item class="ion-align-items-center">
-          <ion-reorder>
            <ion-button class="button-listname" fill="clear" size="full">Groceries</ion-button>
-          </ion-reorder>
+           <ion-reorder><ion-icon name="swap-vertical-outline"></ion-icon></ion-reorder>
         </ion-item>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col class="ion-margin">
         <ion-item class="ion-align-items-center">
-          <ion-reorder>
            <ion-button class="button-listname" fill="clear" size="full">Toys and sweets</ion-button>
-          </ion-reorder>
+           <ion-reorder><ion-icon name="swap-vertical-outline"></ion-icon></ion-reorder>
         </ion-item>
         </ion-col>
       </ion-row>
       <ion-row>
         <ion-col class="ion-margin">
         <ion-item class="ion-align-items-center">
-          <ion-reorder>
            <ion-button class="button-listname" fill="clear" size="full">List name</ion-button>
-          </ion-reorder>
+           <ion-reorder><ion-icon name="swap-vertical-outline"></ion-icon></ion-reorder>
         </ion-item>
         </ion-col>
       </ion-row>

@@ -1,27 +1,31 @@
 
 
 .button-listname {
-    border: 1px solid;
+    border: 2px solid;
     border-color: black;
-    width: 300px;
+    width: 290px;
     height: 103px;
     border-radius: 20px;
     margin: auto;
     font-style: Roboto;
     --color: black;
-    font-size: 34px;
+    font-size: 30px;
+    
+    border-color: #154173;
 }
 
 #addlist {
-    border: 1px solid;
+    border: 2px solid;
     border-color: black;
     width: 103px;
     height: 103px;
     border-radius: 20px;
     margin: auto;
     font-style: Roboto;
-    --color: black;
+    --color: #154173;
     font-size: 50px;
+    border-color: #FF9E42;
+    
 }
 
 ion-reorder {
