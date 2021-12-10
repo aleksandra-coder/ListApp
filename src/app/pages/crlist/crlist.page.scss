@@ -3,56 +3,67 @@
     --background: #82D5FF;
     color: black;
     margin-top: 20px;
-    margin-left: 40px;
+    margin: auto;
     font-size: 35px;
-    --border-radius: 20%;
+    font-style: Roboto;
+    border-radius: 20%;
     height: 85px;
    
 }
+
 .question{
     align-items: center;
-    margin-left: 65px;
+    // margin-left: 65px;
     font-size: 30px;
+    font-style: Roboto;
 }
 .listtitle{
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-size: 25px;
+    font-style: Roboto;
 }
 
 .namelist{
     align-items: center;
-    margin-left: 40px;
+    // margin-left: 40px;
     color: #FF9E42 ;
     --border-color: #FF9E42;
     --border-width:3px;
     font-size: 25px;
+    font-style: Roboto;
 
 }
 .listdescribe{
-    margin: top 4px;
     align-items: center;
     text-align: center;
     justify-content: center;
+    font-size: 25px;
+    font-style: Roboto;
 }
 .listholder{
     align-items: center;
-    margin-left: 40px;
+    // margin-left: 40px;
     color: #FF9E42 ;
     --border-color: #FF9E42;
     --border-width:3px;
     font-size: 25px;
+    font-style: Roboto;
 }
 .select{
-    margin-top: 50px;
-    margin-left: 50px;
+    // margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     align-items: center;
+    font-size: 25px;
+    font-style: Roboto;
 }
 
-.selectcolor{
-    margin-left: 20px;
+// .selectcolor{
+//     margin-left: 20px;
     
-}
+// }
 .color1{
   --background: #F7F7FC;
 }
@@ -71,4 +82,18 @@
 }
 .color6{
     --background:#FEE6E1;
+}
+
+// header:
+.mainHeader{
+    height: 50%;
+}
+.userIcon{
+    position:relative;
+    margin-right:0%;
+    z-index: 2;
+}
+.biggerB{
+   width:4em;
+   height: 4em;
 }

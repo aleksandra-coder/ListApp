@@ -36,3 +36,32 @@ ion-reorder {
     margin-right: auto;
 }
 
+// .fImg{
+//     --background: url(..\..\..\assets\footer1.png) 0 0/100% 100% no-repeat;
+//      height: 100%;
+//      width: 100%;
+//      display: flex;
+//      justify-content: center;
+//      align-items: center;
+//     }
+
+//     .fLogo{
+//         width:12%;
+//         margin-left: 42.5%;
+//         margin-right: 42.5%;
+//         position: relative;
+       
+//     }
+
+.mainHeader{
+    height: 50%;
+}
+.userIcon{
+    position:relative;
+    margin-right:0%;
+    z-index: 2;
+}
+.biggerB{
+   width:4em;
+   height: 4em;
+}
