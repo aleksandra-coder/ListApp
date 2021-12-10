@@ -1,17 +1,20 @@
 <ion-app>
-<ion-header fullscreen>
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar class="mainHeader" class="background">
     <ion-buttons slot="start">
       <ion-back-button text="" class="back-arrow" defaultHref="login"></ion-back-button>
     </ion-buttons>
-    
-    <ion-avatar slot="end">
-      <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
-    </ion-avatar>
+    <ion-buttons slot="end">
+      <ion-button class="biggerB">
+       <ion-avatar>
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content fullscreen>
+<ion-content>
   
     <ion-row>
       <ion-col size="auto">
@@ -67,13 +70,9 @@
     
 </ion-content>
 
-  <ion-footer>
-    <ion-toolbar class="footer">
-      <ion-fab vertical="center" horizontal="center">
-        <ion-fab-button shape="round" class="cart-button">
-          <img src="assets/icon/logo_cart.png" class="logo">
-        </ion-fab-button>
-      </ion-fab>
-    </ion-toolbar>
-  </ion-footer>
+<ion-footer>
+  <ion-toolbar class="fImg">
+      <img class="fLogo"  src="..\..\..\assets\icon\logo_cart.png" />
+  </ion-toolbar>
+</ion-footer>
 </ion-app>

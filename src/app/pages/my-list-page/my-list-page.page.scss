@@ -7,6 +7,7 @@ ion-header{
    height: 17%;
    
 }
+
 .mainHeader{
     height: 50%;
 }
@@ -48,14 +49,14 @@ height: 100%;
 .listOptions{
     color:black;
     --background:white;
-    --border-radius:30%;
+    border-radius:30%;
     margin-right: 5%;
     
 }
 .addButton{
     --border-color: rgb(0, 0, 0);
     --border-width:2px;
-    --border-radius:10%;
+    border-radius:10%;
     font-size: 24px;
     font-weight: bolder;
     --background: white;
@@ -106,7 +107,7 @@ height: 100%;
 .writeArea{
     --border-color: rgb(0, 0, 0);
     --border-width:2px;
-    --border-radius:10%;
+    border-radius:10%;
     --background: white;
     --color:black;
     --color-activated: #FF9E42;

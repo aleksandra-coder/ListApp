@@ -1,13 +1,77 @@
 <ion-header>
-  
-    <ion-label>New This Week</ion-label>
-    <ion-button>See All</ion-button>
-  
-  <ion-toolbar>
-    <ion-title>crlist</ion-title>
+  <ion-toolbar class="mainHeader" class="background">
+    <ion-buttons slot="start">
+      <ion-back-button text="" class="back-arrow" defaultHref="main"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button class="biggerB">
+       <ion-avatar>
+          <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
+        </ion-avatar>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-row class="ion-align-items-center">
+    <ion-col size="12" class="ion-text-center">
+      <ion-button class="createlist">Create List</ion-button>
+    </ion-col>
+      
+  </ion-row>
+  
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" class="ion-text-center">
+        <p class="question">Give this list details?</p>
+      </ion-col>
+   <ion-col size="12" class="ion-text-center">
+      <p class="listtitle">Name:</p>
+       <ion-button  fill="outline" class="namelist">
+       <ion-textarea rows="1"  placeholder="List Name"></ion-textarea>
+       </ion-button>
+   </ion-col> 
+   <ion-col size="12" class="ion-text-center">
+     <p class="listdescribe">Describe the list:</p>
+<ion-button  fill="outline" class="listholder">
+  <ion-textarea rows="1"  placeholder="List description"></ion-textarea>
+</ion-button>
+   </ion-col>
+
+</ion-row>
+</ion-grid>
+
+<p class="select">Select a color from this list:</p>
+ <ion-grid class="selectcolor">
+   
+<ion-row class="ion-align-items-center">
+
+<ion-col size="2" class="ion-text-center">
+  <ion-button class="color1" ></ion-button>
+</ion-col>
+<ion-col size="2" class="ion-text-center">
+  <ion-button  class="color2" ></ion-button>
+</ion-col>
+<ion-col size="2" class="ion-text-center"> 
+  <ion-button class="color3" ></ion-button>
+</ion-col>
+<ion-col size="2" class="ion-text-center"> 
+  <ion-button class="color4" ></ion-button>
+</ion-col>
+<ion-col size="2" class="ion-text-center"> 
+  <ion-button class="color5" ></ion-button>
+</ion-col>
+<ion-col size="2" class="ion-text-center"> 
+  <ion-button class="color6" ></ion-button>
+</ion-col>
+</ion-row>
+ </ion-grid>  
 
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar class="fImg">
+      <img class="fLogo"  src="..\..\..\assets\icon\logo_cart.png" />
+  </ion-toolbar>
+</ion-footer>
